@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Production Build Output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diagnostic database logs (if applicable)
+.eslintcache
+
+# Operating System Files
+.DS_Store
+Thumbs.db
