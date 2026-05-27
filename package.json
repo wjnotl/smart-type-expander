@@ -12,7 +12,8 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "release": "standard-version && git push --follow-tags origin main",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin main",
     "format": "prettier --write \"**/*.{ts,js}\""
   },
   "dependencies": {
